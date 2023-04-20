@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Laboratorios 2</title>
+    </head>
+    <body>
+        <h1>¿Qué es Javascript y en qué se asemeja a Java?</h1>
+        <p>JavaScript es un lenguaje de Scripting multiplataforma y orientado a objetos dentro de un ambiente host, que puede conectarse y proporcionar control programático sobre ellos.
+            El javascript se asemeja a java en que utilizan llaves para delimitar bloques de códigos, ambos usan punto y comas como separador de instrucciones y tambien utilizan estructura de control de flujo como else/if,for, while,etc.
+        </p><br>
+        <h1>Calculo de operación usando var</h1>
+        <section>
+            <form name="calculo" action="" method="get">
+                Ingrese un numero: <input type="text" id="num1"><br><br>
+                Ingrese un numero: <input type="text" id="num2"><br><br>
+                <button type="button" onclick="EnviarForm()">Calcular</button>
+                
+            </form> <br>
+            La suma es: <label id="suma"></label><br>  
+            La resta es: <label id="resta"></label><br>  
+            La multiplicación es: <label id="multiplicacion"></label><br>  
+            El división es: <label id="division"></label><br> 
+            
+        <script src="basic.js"></script>
+        </section>
+
+        <h1>Concadenación usando let</h1>
+        <section>
+            <form name="concadenacion" action="" method="get">
+                Ingrese un palabra: <input type="text" id="var1"><br><br>
+                Ingrese un palabra: <input type="text" id="var2"><br><br>
+                <button type="button" onclick="Form2()">Enviar</button>
+                
+            </form> <br>
+            Concadenación: <label id="res"></label><br>
+            
+        <script src="basic.js"></script>
+        </section>
+
+        <h1>Encontrar tipos de datos usando const</h1>
+        <section>
+            <form name="verificar" action="" method="get">
+                Ingrese un palabra o numero: <input type="text" id="vars1"><br><br>
+                Ingrese un palabra o numero: <input type="text" id="vars2"><br><br>
+                <button type="button" onclick="ConstType()">Identificar</button>
+                
+            </form> <br>
+            Tipo de variable es: <label id="res1"></label><br>
+            Tipo de variable es: <label id="res2"></label><br>
+            
+        <script src="basic.js"></script>
+        </section>
+
+
+        <h1>Declarar una variable tipo objeto</h1>
+        <section>
+            <form name="verificar2" action="" method="get">
+                <button type="button" onclick="TipoObjetos()">Verificar</button><br><br>
+                <label id="objetos">Mostrar objetos</label><br>
+            </form> <br>
+            Tipos de objetos son: <br><br><label id="res3"></label><br>
+            
+        <script src="basic.js"></script>
+        </section>
+
+        
+        <h1>Funcion de tomar un numero luego la suma menores que sean múltiplos de 3 o 5</h1>
+        <section>
+            <form name="Calculo2" action="" method="get">
+                Ingrese un numero: <input type="number" id="number1"><br><br>
+                <button type="button" onclick="CalcularNum()">Calcular</button>
+                
+            </form> <br>
+            La suma es: <p id="res4"></p><br>
+            
+        <script src="basic.js"></script>
+        </section>
+    </body>
+</html>
